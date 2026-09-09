@@ -33,7 +33,7 @@ define('WP_AUTO_UPDATE_CORE', true);
 4. Далее настройте SSL в Nginx и обновление сертификата для Let's Encrypt. Configure Content Security Policy (CSP) in Nginx.
 
 Для создания проекта использовались ссылки:
-https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose#installing-wordpress-with-docker-compose
-https://melapress.com/secure-wp-config-php-file/
-https://www.malcare.com/blog/secure-site-with-wp-config/#1-disable-file-editing
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose#installing-wordpress-with-docker-compose  
+https://melapress.com/secure-wp-config-php-file/  
+https://www.malcare.com/blog/secure-site-with-wp-config/#1-disable-file-editing  
 
