@@ -37,3 +37,11 @@ https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-d
 https://melapress.com/secure-wp-config-php-file/  
 https://www.malcare.com/blog/secure-site-with-wp-config/#1-disable-file-editing  
 
+5. Нужно дабавить в файл .htaccess содержимое:
+
+<Files wp-config\.php>
+order allow,deny
+deny from all
+</Files>
+
+Для большей защищенности сайта.
